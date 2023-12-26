@@ -24,6 +24,8 @@ class Car {
 		System.out.println("Enter 2 for Update the Record");
 		System.out.println("Enter 3 for Delete the Record");
 		int val =s.nextInt();
+//		if(val>3)
+//			System.err.println("Invalid Value Please enter the Value at 1 To 3");
 		switch (val) {       //The entered value can be checked by do the process by switch case process.
 		case 1:
 			Car.selectRecords();
